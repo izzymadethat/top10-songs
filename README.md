@@ -1,8 +1,15 @@
-# React + Vite
+# Top 10 songs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Build a top 10 website using React and React Hooks. I have provided the starter code.
 
-Currently, two official plugins are available:
+### How to set up:
+- clone this repo to your local machine and open in your editor
+- run npm install
+- Read the ToDo in App.jsx
+- Build based on the prompt and enjoy!
+- Data is in /src/lib/data.js for viewing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- information current as of 4-23-24
+
+
+Basic concept written by Isaiah Vickers
