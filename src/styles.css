@@ -1,0 +1,57 @@
+html,
+body {
+  background-color: #0d0d0d;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  background: #000;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: #90d26d;
+  cursor: pointer;
+}
+
+.song-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+
+.song-grid h2 {
+  font-size: 24px;
+}
+
+.song-grid span {
+  color: #90d26d;
+}
+
+.song-grid h3 {
+  font-size: 18px;
+}
+
+.songs-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.songs-section div:first-child {
+  place-self: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Utility Classes */
+.text-lg {
+  font-size: 32px;
+  font-weight: 800;
+}
